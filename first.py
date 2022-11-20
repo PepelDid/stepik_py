@@ -5,8 +5,8 @@ def check(mail):
         if re.fullmatch(r'[a-zA-Z0-9@.]+', mail):
             print('ДА')
         else:
-            print('НЕТ')
+            print('НЕТ, OK')
     else:
-        print('НЕТ, MAYBY')
+        print('НЕТ')
 
 check(input())
