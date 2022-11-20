@@ -7,6 +7,6 @@ def check(mail):
         else:
             print('НЕТ')
     else:
-        print('НЕТ, MAYBY')
+        print('НЕТ')
 
 check(input())
